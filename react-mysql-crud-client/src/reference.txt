@@ -19,3 +19,7 @@ npm install react-bootstrap
 create database testdb;
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+
+npm install @testing-library/react@latest
+
+npm install react-router-dom@6
