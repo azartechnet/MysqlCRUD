@@ -1,0 +1,27 @@
+import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
+// import { LinkContainer } from 'react-router-bootstrap';
+import { NavLink } from 'react-router-dom';
+
+const NavigationBar = () => {
+    return (
+        <Navbar bg="dark" variant="dark" expand="lg">
+            <Navbar.Brand href="/">CRUD App</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                    <NavLink to="/" className="nav-link"> Home </NavLink>
+                    <NavLink to="/create" className="nav-link">Create Post</NavLink>
+                    {/* <LinkContainer to="/">
+                        <Nav.Link>Home</Nav.Link>
+                    </LinkContainer>
+                    <LinkContainer to="/create">
+                        <Nav.Link>Create Post</Nav.Link>
+                    </LinkContainer> */}
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
+    );
+};
+
+export default NavigationBar;
