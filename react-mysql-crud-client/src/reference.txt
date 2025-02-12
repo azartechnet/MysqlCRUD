@@ -11,7 +11,8 @@ Creating  FrontEnd Project
 npx create-react-app  react-mysql-crud-client
 cd react-mysql-crud-client
 npm install bootstrap
-npm install react-router-dom
+npm install @testing-library/react@latest
+npm install react-router-dom@6
 npm install react-router-bootstrap
 npm install react-bootstrap
  
@@ -22,8 +23,6 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
 
 npm install --force
 
-npm install @testing-library/react@latest
 
-npm install react-router-dom@6
 
 npm install react@18 react-dom@18
