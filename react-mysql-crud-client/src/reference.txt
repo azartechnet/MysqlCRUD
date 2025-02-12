@@ -24,4 +24,4 @@ npm install --force
 
 npm install @testing-library/react@latest
 
-npm install react-router-dom@6
+npm install react-router-dom@6 or 18
